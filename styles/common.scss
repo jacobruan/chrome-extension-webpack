@@ -1,17 +1,5 @@
 @import 'normalize.css';
-
-body {
-  background-color: #292d3e;
-  color: #ffffff;
-}
-
-.input-group {
-  display: flex;
-
-  margin: 1rem 0;
-
-  flex-direction: row;
-  gap: 1rem;
-
-  align-items: center;
-}
+// Import all of Bootstrap's CSS
+@import "~bootswatch/dist/Litera/variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootswatch/dist/Litera/bootswatch";
